@@ -1,10 +1,45 @@
 /* General Reset */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
+
+  /* style the search field*/
+
+  input[type=text] {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid gray;
+    float: left;
+    width: 100%;
+    background: #f1f1f1;
+  }
+
+  /*style the  submit button*/
+
+   .button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196f3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid gray;
+    border-left: none;
+    cursor: pointer;
+   }
+
+   form.search button:hover{
+       background-color: #0b7dda;
+   }
   
+   /* clear float*/
+      
+      form.search::after{
+           content: normal;
+           clear: both;
+           display: table;
+      }
+
   /* Body and Background */
   body {
     font-family: Arial, sans-serif;
