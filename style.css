@@ -1,137 +1,180 @@
-/* General Reset */
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  /* style the search field*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-  input[type=text] {
-    padding: 10px;
-    font-size: 18px;
-    border: 1px solid gray;
-    float: left;
-    width: 100%;
-    background: #f1f1f1;
-  }
-
-  /*style the  submit button*/
-
-   .button{
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196f3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid gray;
-    border-left: none;
-    cursor: pointer;
-   }
-
-   form.search button:hover{
-       background-color: #0b7dda;
-   }
   
-   /* clear float*/
-      
-      form.search::after{
-           content: normal;
-           clear: both;
-           display: table;
-      }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+  
+.subtitle {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+  
+      /* Search bar container */
+      .search-bar {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        display: flex;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    
+    .search-bar input {
+        flex: 1;
+        padding: 10px;
+        font-size: 1rem;
+        border: none;
+        outline: none;
+    }
+    
+    .search-bar button {
+        background-color: #fbb034;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+    .search-bar button:hover {
+        background-color: #e39e1c;
+    }
+    
+    
   /* Body and Background */
   body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
-    color: #333;
-  }
+    color: #61af79;
+}
+
   
   /* Header and Navigation */
   header {
-    background-color: #061403ce;
+    background-color: #15410cce;
     color: #fff;
     padding: 20px 0;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     text-align: center;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline;
     margin: 0 15px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-  }
-  
+}
+
   /* Hero Section */
   .hero {
-    background-color:#2d642d;
+    background-color: #2d642d;
     color: #fff;
     padding: 100px 0;
-    
-  }
-  
-  .hero h1 {
-    font-size:48px;
+}
+
+.hero h1 {
+    font-size: 48px;
     margin-bottom: 20px;
-  }
-  
-  .hero p {
+}
+
+.hero p {
     font-size: 18px;
     margin-bottom: 30px;
-    font-family: ;
-  }
-  
-  .cta-button {
+}
+
+.cta-button {
     background-color: #fff;
     color: #2d642d;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-  }
-  
- 
-  .cta-button:hover {
+}
+
+.cta-button:hover {
     background-color: #469c46;
     color: #fff;
-  }
-  
+}
   /* Content Section */
   .content {
     display: flex;
     justify-content: space-around;
     margin: 40px 0;
-  }
-  
-  .card {
+
+}
+
+.card {
     background-color: #fff;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
     text-align: center;
-  }
-  
-  .card h2 {
+    
+}
+
+.card h2 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  .card p {
+    color: #333;
+}
+
+.card p {
     font-size: 16px;
-  }
+    color: #777676;
   
-  /* Footer */
+}
+
+.card h3{
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #333;
+}
+/* Footer */
   footer {
-    background-color: #333;
+    background-color: #13381f;
     color: #fff;
     text-align: center;
     padding: 20px 0;
