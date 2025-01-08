@@ -1,0 +1,240 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #15410cce;
+  color: #fff;
+  padding: 20px 0;
+}
+.logo{
+  height: 80px;
+}
+header .Menu {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #fbb034;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Basic Phrases Section */
+.basic-phrases {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.basic-phrases h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.basic-phrases ul {
+  list-style: none;
+}
+
+.basic-phrases li {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Grammar Section */
+.grammar {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grammar h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.grammar h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.grammar ul {
+  list-style: none;
+}
+
+.grammar li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Vocabulary Section */
+.vocabulary {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vocabulary h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.vocabulary h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.vocabulary ul {
+  list-style: none;
+}
+
+.vocabulary li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Practice Section */
+.practice {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.practice h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.practice ol {
+  list-style: decimal inside;
+  margin-bottom: 20px;
+}
+
+.practice li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Audio Section */
+.audio {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.audio h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.audio audio {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #13381f;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .basic-phrases, .grammar, .vocabulary, .practice, .audio {
+    margin-bottom: 20px;
+  }
+}
+
+ 
