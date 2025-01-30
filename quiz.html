@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spanish Quiz</title>
+  <link rel="stylesheet" href="quiz.css"> <!-- Link to your new quiz CSS file -->
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Spanish Learning Quiz</h1>
+
+    <form id="quiz-form">
+      <!-- Question 1 -->
+      <div class="question">
+        <p>1. How do you say "hello" in Spanish?</p>
+        <label>
+          <input type="radio" name="question1" value="a"> Hola
+        </label><br>
+        <label>
+          <input type="radio" name="question1" value="b"> Adiós
+        </label><br>
+        <label>
+          <input type="radio" name="question1" value="c"> Gracias
+        </label><br>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question">
+        <p>2. How do you say "goodbye" in Spanish?</p>
+        <label>
+          <input type="radio" name="question2" value="a"> Adios
+        </label><br>
+        <label>
+          <input type="radio" name="question2" value="b"> Gracias
+        </label><br>
+        <label>
+          <input type="radio" name="question2" value="c"> Hola
+        </label><br>
+      </div>
+
+    <!--questiopn 3-->
+         <div class="question">
+            <p>3. How do you say "Thank you" in Spanish?</p>
+            <label>
+              <input type="radio" name="question1" value="a"> Por favor
+            </label><br>
+            <label>
+              <input type="radio" name="question1" value="b"> Hola
+            </label><br>
+            <label>
+              <input type="radio" name="question1" value="c"> Gracias
+            </label><br>
+          </div>
+
+          <!--question 4-->
+          <div class="question">
+            <p>4. How do you say "good morning" in Spanish?</p>
+            <label>
+              <input type="radio" name="question1" value="a"> Buenas noches
+            </label><br>
+            <label>
+              <input type="radio" name="question1" value="b"> Buenos dias
+            </label><br>
+            <label>
+              <input type="radio" name="question1" value="c"> Buenas tardes
+            </label><br>
+          </div>
+
+         <!--question 5-->
+              <div class="question">
+                <p>5.What is the Spanish word for "apple"?</p>
+                <label>
+                  <input type="radio" name="question1" value="a"> Manzana
+                </label><br>
+                <label>
+                  <input type="radio" name="question1" value="b"> Pera
+                </label><br>
+                <label>
+                  <input type="radio" name="question1" value="c"> Plátano
+                </label><br>
+              </div>
+
+               <!--question 6-->
+          <div class="question">
+            <p>6. How do you say "How are you" in Spanish?</p>
+            <label>
+              <input type="radio" name="question1" value="a"> ¿Qué tal?
+            </label><br>
+            <label>
+              <input type="radio" name="question1" value="b"> ¿Cómo estás?
+            </label><br>
+            <label>
+              <input type="radio" name="question1" value="c">¿Cómo te llamas?
+            </label><br>
+          </div>
+      <!-- Submit Button -->
+      <button type="submit" id="submit-button">Submit Quiz</button>
+    </form>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="quiz.js"></script> <!-- Link to your new quiz JavaScript file -->
+</body>
+</html>
