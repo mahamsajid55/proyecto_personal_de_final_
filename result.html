@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <script>
+      function showResult()  {
+        let score = localStorage.getItem("quizScore");
+        let totalQuestion = localStorage.getItem("totalQuestions")
+
+        let resultDiv = document.getElementById("result");
+        resultDiv.innerHTML = you scored <strong>${score}</strong> out of <strong>${totalQuestions}</strong>
+      
+      
+      if (score == totalQuestions) {
+                resultDiv.style.color = "green";
+                resultDiv.innerHTML += " 🎉 Perfect Score!";
+            } else if (score >= totalQuestions / 2) {
+                resultDiv.style.color = "orange";
+                resultDiv.innerHTML += " 😊 Good job!";
+            } else {
+                resultDiv.style.color = "red";
+                resultDiv.innerHTML += " ❌ Try again.";
+            }
+        }
+  
+    </script>
+
+    </head>
+    <body onload="showResult()">
+        <h2>Quiz Results</h2>
+        <div id="result"></div>
+
+        <br>
+        <a href="quiz.html">Try Again</a>
+
+</body>
+</html>
