@@ -109,7 +109,7 @@ nav {
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    font-weight: bold;
+    font-weight: bold
   }
 
   h5{
@@ -175,10 +175,11 @@ nav {
 .list-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers everything inside */
+    align-items: center; 
     text-align: center;
     padding: 20px;
     position: relative;
+    margin-top: 50px;
 }
 
 h5 {
@@ -199,6 +200,9 @@ h5 {
      align-items: center;
      text-align: center;
      padding: 20px;
+}
+.about-container {
+  margin-top: 150px;
 }
 
   /* Footer */
