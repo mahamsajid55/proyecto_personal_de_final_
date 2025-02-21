@@ -124,10 +124,10 @@ nav {
     text-align: center;
   }
   .mission-container {
-       background-color: red;
-       background-image: url(imagenes/walpaper.jpg)
+     border-radius: 10px;
+
   }
-  
+
   .list-container{
     background-color: aqua;
     height: 14rem;
