@@ -103,8 +103,11 @@ nav {
     background-image: url();
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 100px 20px;
+    background-color: #f7f7f7;
+    margin-top: 8rem;
+    border-radius: 10px;
   }
 
   .service-container{

@@ -1,13 +1,17 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Remove redundant body style */
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
   color: #ffb703;
 }
+
+
 /* Header Styling */
 header {
   display: flex;
@@ -78,37 +82,15 @@ nav {
   gap: 20px;
 }
 
-  /* Hero Section */
-  .hero {
-    background-color: #1c681c;
-    color: #fff;
-    padding: 100px 0;
+.logo {
+  height: 50px;
 }
 
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
-
-.hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-.cta-button {
-    background-color: #fff;
-    color: #1f381f;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-}
-
-.cta-button:hover {
-    background-color: #469c46;
-    color: #fff;
-}
-
 
 /* Main Content */
 main {
@@ -118,6 +100,7 @@ main {
 /* Intro Section */
 .intro {
   background-color: #e0f7fa;
+  margin-top: 5rem;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 30px;
