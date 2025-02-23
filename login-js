@@ -1,0 +1,14 @@
+document.getElementById("login-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form from refreshing
+
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+
+    // Simple validation (replace this with backend authentication)
+    if (email === "test@example.com" && password === "123456") {
+        alert("Login successful!");
+        window.location.href = "dashboard.html"; // Redirect after login
+    } else {
+        alert("Invalid email or password. Try again!");
+    }
+});
