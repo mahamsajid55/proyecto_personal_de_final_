@@ -205,6 +205,26 @@ h5 {
   margin-top: 150px;
 }
 
+.back-home {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #ff4081, #ff9100);
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.back-home:hover{
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #ff9100, #ff4081);
+}
+
   /* Footer */
 footer {
   background-color: #1b4332;
