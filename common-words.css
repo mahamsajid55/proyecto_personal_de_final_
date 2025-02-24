@@ -1,56 +1,97 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
     color: #333;
 }
 
+/* Header */
 header {
-    background: #0ea190;
+    background-color: #ff6b6b;
     color: white;
+    padding: 20px;
     text-align: center;
-    padding: 15px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ff4757;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    padding: 15px 20px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: white;
     font-weight: bold;
 }
 
-.table-container {
-    display: flex;
-    justify-content: center;
+nav ul li a:hover {
+    color: #ffd32a;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
     margin: 20px auto;
-}
-
-table {
-    width: 80%;
-    border-collapse: collapse;
+    padding: 20px;
     background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-th, td {
-    padding: 12px;
+/* Sections */
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 5px solid #ff4757;
+    background: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #ff4757;
+    font-size: 22px;
+    border-bottom: 2px solid #ff4757;
+    padding-bottom: 5px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
 }
 
 th {
-    background: #ffb703;
+    background-color: #ff6b6b;
     color: white;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('checkmark.png') no-repeat left center;
+    padding-left: 25px;
+    margin: 5px 0;
 }
 
 /* Back to Spanish Native Button */
@@ -73,9 +114,12 @@ th {
     background: #c70039; /* Color más oscuro al pasar el cursor */
 }
 
+
+/* Footer */
 footer {
-    background: #13381f;
-    color: white;
     text-align: center;
+    background: #ff6b6b;
+    color: white;
     padding: 15px;
+    margin-top: 30px;
 }
