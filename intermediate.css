@@ -162,20 +162,18 @@ footer {
 
 .back-home {
   display: inline-block;
-  text-decoration: none;
-  padding: 12px 20px;
-  font-size: 18px;
-  font-weight: bold;
+  background: #ffb703;
   color: white;
-  background: linear-gradient(135deg, #ff4081, #ff9100);
-  border-radius: 8px;
-  transition: 0.3s ease-in-out;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  font-weight: bold;
 }
-.back-home:hover{
+
+.back-home:hover {
+  background: #0077b6;
   transform: scale(1.1);
-  background: linear-gradient(135deg, #ff9100, #ff4081);
 }
